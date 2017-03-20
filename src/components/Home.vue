@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="/list">list</a>
+    <a href="/list" class="btn">list</a>
   </div>
 </template>
 
@@ -17,5 +17,12 @@ export default {
 </script>
 
 <style scoped>
-
+.btn {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+  text-align: center;
+  background: #ccc;
+}
 </style>
