@@ -100,10 +100,14 @@ export default {
   width: 100%;
   overflow-y: scroll;
 }
+.rss-list {
+  padding: 0 20px;
+}
 .rss-version {
   display: none;
 }
 .list-item {
+  min-height: 200px;
   padding-bottom: 15px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 30px;

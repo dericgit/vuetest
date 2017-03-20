@@ -48,15 +48,15 @@ export default {
 .summary-img {
   position: relative;
   float: right;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
 }
 .summary-img img {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 50%;
+  
   transform: translate(-50%, -50%);
 }
 </style>
